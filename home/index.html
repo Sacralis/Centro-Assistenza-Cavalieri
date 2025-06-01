@@ -7,7 +7,6 @@
 </head>
 <body>
     <audio autoplay loop>
-        <button id="hint-button">Dammi un indizio</button>
         <source src="../assets/music.mp3" type="audio/mpeg">
         Il tuo browser non supporta l'audio HTML5.
     </audio>
@@ -17,11 +16,5 @@
         <p>Ogni prova nasconde un enigma, e qui troverai gli strumenti per affrontarle con onore e saggezza.</p>
         <p>Scansiona i codici sacri per accedere alle risposte delle tue imprese.</p>
     </div>
-    <script>
-        document.getElementById("hint-button").addEventListener("click", function() {
-            window.location.href = "prova1.html"; // Sostituisci con la tua pagina
-            document.getElementById("background-music").play();
-        });
-    </script>
 </body>
 </html>
