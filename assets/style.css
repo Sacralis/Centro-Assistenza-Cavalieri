@@ -11,19 +11,6 @@ body {
     padding: 50px;
     background-color: black;
 }
-button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
 .container {
     background: rgba(255, 248, 220, 0.8);
     border: 8px solid #5b3a1a;
